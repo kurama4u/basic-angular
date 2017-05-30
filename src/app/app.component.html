@@ -1,0 +1,32 @@
+<!--<h1>
+  {{title}}
+</h1>-->
+<!--<a routerLink = '/members'>mem section</a>
+<a routerLink = '/product'>prod section</a>
+<router-outlet></router-outlet>-->
+<!--<br>{{obj.name}}-->
+<!--<div>{{arr[0]}}</div>
+<br>
+<div>{{arr[1]}}</div>
+<br>
+<div>{{arr[2]}}</div>-->
+<!--<ul>
+  <li *ngFor = "let i of heroes">{{i}}</li>
+</ul>
+<p *ngIf = "heyTrue; then firstTemp else secondTemp"></p>
+<ng-template #firstTemp>First Blood!</ng-template>
+<ng-template #secondTemp>Well Played!</ng-template>
+<p *ngIf = "myHero == 'furion'">Rak!</p>-->
+<div class = "main">
+  <h1>Language List</h1>
+  <div class = "addHero">
+    <input [(ngModel)] = "newitem" placeholder="Add Language" class="addText">
+    <button (click) = "pushitem()">Add</button>
+  </div>
+  <ul>
+    <li *ngFor = "let i of items">
+      {{i}}
+      <span (click) = "removeItem(i)">x</span>
+    </li>
+  </ul>
+</div>
