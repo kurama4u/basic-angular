@@ -1,2 +1,0 @@
-# basic-angular
-angular study
